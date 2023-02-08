@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>G36Media</title>
+  <link rel="stylesheet" href="/assets/index-78159d90.css">
+</head>
+
+<body class="bg-[var(--bg-color)] font-poppins overflow-x-hidden py-0">
+
+    <!-- -----------------------------NAVBAR----------------------------- -->
+
+    <nav
+        class="flex bg-[var(--color)] fixed z-50 py-1.5 top-0 tablet:px-6 desktop:px-20 
+        transition-all ease-in-out duration-300 border-b-4 border-b-[var(--color-primary-dark)] 
+        items-center justify-between w-full">
+        <div class="logo">
+            <a href="#">
+                <h1 class="font-poppins font-bold text-3xl text-[var(--color-primary)]">G36Media</h1>
+            </a>
+        </div>
+        <div class="searchBox bg-[var(--color-primary-dark)] w-[50vw] pl-3 rounded-2xl">
+            <i class="uil uil-search text-xl"></i>
+            <input type="text" placeholder="Looking for friends?" class="bg-transparent w-[95%] h-12 border-none px-2">
+        </div>
+        <div class="button">
+            <label for="create-post" class="buttonk">Create</label>
+        </div>
+        <div class="profile rounded-full">
+            <img src="/assets/profile-1-995462a3.jpg" alt="profile" class="rounded-full h-14 cursor-pointer">
+        </div>
+    </nav>
+
+    <!-- -------------------------MAIN CONTENT------------------------- -->
+
+    <main>
+        <div class="container grid grid-cols-3 my-4 transition-all duration-300 ease-in-out">
+
+            <!-- --------------------------------LEFT PAGE------------------------ -->
+
+            <div class="left flex flex-col items-center fixed z-50 top-[76px] ml-[2.5rem] desktop:left-[-20px]">
+                <div class="profile bg-[var(--color)] flex items-center px-2 py-3 w-[21vw] rounded-xl">
+                    <img src="/assets/profile-1-995462a3.jpg" alt="profile"
+                        class="rounded-full h-10 cursor-pointer border-2 border-[var(--color-primary)]">
+                    <div class="text mx-3">
+                        <h3 class="font-poppins font-semibold">Alexa Jones</h3>
+                        <small class="font-poppins text-[var(--color-faded)] text-sm">@ALEXA</small>
+                    </div>
+                </div>
+                <div class="menu-item bg-white block text-left w-[21vw] rounded-xl my-2 z-50">
+                    <span class="menu-btn z-50 animate active font-poppins font-semibold text-lg flex items-center space-x-2"><i
+                            class="uil uil-home text-2xl"></i>
+                        <p>Home</p>
+                    </span>
+                    <span class="menu-btn z-50 animate font-poppins font-semibold text-lg flex items-center space-x-2"><i
+                            class="uil uil-clock text-2xl"></i>
+                        <p>Explore</p>
+                    </span>
+                    <span class="menu-btn z-50 notification-btn animate font-poppins font-semibold text-lg flex items-center space-x-2"><i
+                            class="uil uil-bell text-2xl"></i>
+                        <p>Notification</p>
+                    </span>
+                   
+                    <span class="menu-btn z-50 animate font-poppins font-semibold text-lg flex items-center space-x-2"><i
+                            class="uil uil-envelope text-2xl"></i>
+                        <p>Messages</p>
+                    </span>
+                    <span class="menu-btn z-50 animate font-poppins font-semibold text-lg flex items-center space-x-2"><i
+                            class="uil uil-bookmark text-2xl"></i>
+                        <p>Bookmarks</p>
+                    </span>
+                    <span class="menu-btn z-50 animate font-poppins font-semibold text-lg flex items-center space-x-2"><i
+                            class="uil uil-analytics text-2xl"></i>
+                        <p>Analytics</p>
+                    </span>
+                    <span class="menu-btn z-50 animate font-poppins font-semibold text-lg flex items-center space-x-2"><i
+                            class="uil uil-palette text-2xl"></i>
+                        <p>Themes</p>
+                    </span>
+                    <span class="menu-btn z-50 animate font-poppins font-semibold text-lg flex items-center space-x-2"><i
+                            class="uil uil-setting text-2xl"></i>
+                        <p>Settings</p>
+                    </span>
+                </div>
+                <div
+                class="notification-popup absolute block opacity-0 translate-x-[-487px]
+                 left-[16rem] top-[14rem] space-y-6 px-5 w-[41vw] py-7 transition-all duration-300 ease-in
+                 rounded-md cursor-pointer right-auto bg-[var(--color)] shadow-xl border-[var(--color-primary)] border-t-4">
+                <div class="flex space-x-3 items-center">
+                    <div class="profile">
+                        <img src="/assets/profile-10-7e4030a3.jpg" alt="profile"
+                            class="rounded-full h-10 cursor-pointer">
+                    </div>
+                    <div class="info">
+                        <div class="k">
+                            <b>James Bond </b> likes your photo
+                        </div>
+                        <div class="time text-xs font-medium font-poppins text-[var(--color-faded)]">2 HOURS AGO
+                        </div>
+                    </div>
+                </div>
+                <div class="flex space-x-3 items-center">
+                    <div class="profile">
+                        <img src="/assets/profile-11-a49410cd.jpg" alt="profile"
+                            class="rounded-full h-10 cursor-pointer">
+                    </div>
+                    <div class="info">
+                        <div class="k">
+                            <b>Michel Jones </b> commented on your photo
+                        </div>
+                        <div class="time text-xs font-medium font-poppins text-[var(--color-faded)]">1 MINUTE
+                            AGO
+                        </div>
+                    </div>
+                </div>
+                <div class="flex space-x-3 items-center">
+                    <div class="profile">
+                        <img src="/assets/profile-12-158de6b8.jpg" alt="profile"
+                            class="rounded-full h-10 cursor-pointer">
+                    </div>
+                    <div class="info">
+                        <div class="k">
+                            <b>Harley Davidson </b> shared your post
+                        </div>
+                        <div class="time text-xs font-medium font-poppins text-[var(--color-faded)]">33 MINUTES
+                            AGO
+                        </div>
+                    </div>
+                </div>
+                <div class="flex space-x-3 items-center">
+                    <div class="profile">
+                        <img src="/assets/profile-13-93627889.jpg" alt="profile"
+                            class="rounded-full h-10 cursor-pointer">
+                    </div>
+                    <div class="info">
+                        <div class="k">
+                            <b>Natasha Romanroff </b> reacted on your photo
+                        </div>
+                        <div class="time text-xs font-medium font-poppins text-[var(--color-faded)]">22 HOURS
+                            AGO
+                        </div>
+                    </div>
+                </div>
+                <div class="flex space-x-3 items-center">
+                    <div class="profile">
+                        <img src="/assets/profile-14-1a687d62.jpg" alt="profile"
+                            class="rounded-full h-10 cursor-pointer">
+                    </div>
+                    <div class="info">
+                        <div class="k">
+                            <b>David Luke </b> likes your photo
+                        </div>
+                        <div class="time text-xs font-medium font-poppins text-[var(--color-faded)]">34 SECONDS
+                            AGO
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- ------------------------MIDDLE PAGE------------------- -->
+
+            <div class="middle w-[50%] absolute left-0 right-0 mx-auto mt-[3.8rem]">
+
+                <!-- ------------------------STORY SECTION--------------------- -->
+
+                <div class="stories flex text-center justify-between h-[12rem] w-[40vw] space-x-2">
+                    <div class="story">
+                        <div class="profile">
+                            <img src="/assets/profile-1-995462a3.jpg" alt="profile"
+                                class="rounded-full h-[2rem] w-[2rem] self-start cursor-pointer border-2 border-[var(--color-primary)]">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile">
+                            <img src="/assets/profile-8-1016fada.jpg" alt="profile"
+                                class="rounded-full h-[2rem] w-[2rem] self-start cursor-pointer border-2 border-[var(--color-primary)]">
+                        </div>
+                        <p class="name">Michel Jackson</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile">
+                            <img src="/assets/profile-16-d8b86af9.jpg" alt="profile"
+                                class="rounded-full h-[2rem] w-[2rem] self-start cursor-pointer border-2 border-[var(--color-primary)]">
+                        </div>
+                        <p class="name">Anna Williams</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile">
+                            <img src="/assets/profile-17-1336519e.jpg" alt="profile"
+                                class="rounded-full h-[2rem] w-[2rem] self-start cursor-pointer border-2 border-[var(--color-primary)]">
+                        </div>
+                        <p class="name">Rechard Benjamin</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile">
+                            <img src="/assets/profile-18-17edbf3f.jpg" alt="profile"
+                                class="rounded-full h-[2rem] w-[2rem] self-start cursor-pointer border-2 border-[var(--color-primary)]">
+                        </div>
+                        <p class="name">Alex Benjamin</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile">
+                            <img src="/assets/profile-6-5a746552.jpg" alt="profile"
+                                class="rounded-full h-[2rem] w-[2rem] self-start cursor-pointer border-2 border-[var(--color-primary)]">
+                        </div>
+                        <p class="name">Anna Bell</p>
+                    </div>
+                </div>
+
+                <!-- ---------------------------CREATE POST SECTION---------------------- -->
+
+                <form
+                    class="create-post w-[40vw] space-x-2 flex items-center justify-between mt-[1rem] bg-[var(--color)] py-[0.4rem] px-3 rounded-3xl">
+                    <div class="profile">
+                        <img src="/assets/profile-1-995462a3.jpg" alt="profile"
+                            class="rounded-full h-10 cursor-pointer border-2 border-[var(--color-primary)]">
+                    </div>
+                    <input type="text" placeholder="What's on your mind, Alexa?" id="create-post" class="w-[70%]">
+                    <input type="submit" value="Post" class="buttonk">
+                </form>
+
+                <!-- -------------------------------FEEDS------------------------- -->
+
+                <div class="feeds">
+
+                    <!-- ----FEED-1---- -->
+                    
+                    <div class="feed">
+
+                        <!-- -------HEAD------- -->
+
+                        <div class="head">
+                            <div class="user flex space-x-3">
+                                <div class="profile">
+                                    <img src="/assets/profile-11-a49410cd.jpg" alt="profile"
+                                        class="rounded-full h-10 cursor-pointer">
+                                </div>
+                                <div class="ingo">
+                                    <h3 class="text-base font-medium">Lana Rose</h3>
+                                    <small class="font-medium text-[var(--color-faded)]">USA, 3 Minutes Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="/assets/feed-1-46b45713.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart likebtn"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/assets/profile-10-7e4030a3.jpg"></span>
+                            <span><img src="/assets/profile-14-1a687d62.jpg"></span>
+                            <span><img src="/assets/profile-6-5a746552.jpg"></span>
+                            <p>Liked by</p><b> Samuel Jackson</b> and <b>2,334 others</b>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. <span
+                                    class="harsh-tag">#lifestyle</span></p>
+                        </div>
+                        <div class="comment text-[var(--color-faded)]">
+                            View all 986 comments
+                        </div>
+                    </div>
+
+                    <!-- ----FEED-2---- -->
+
+                    <div class="feed">
+
+                        <!-- -------HEAD------- -->
+
+                        <div class="head">
+                            <div class="user flex space-x-3">
+                                <div class="profile">
+                                    <img src="/assets/profile-12-158de6b8.jpg" alt="profile"
+                                        class="rounded-full h-10 cursor-pointer">
+                                </div>
+                                <div class="ingo">
+                                    <h3 class="text-base font-medium">Lana Rose</h3>
+                                    <small class="font-medium text-[var(--color-faded)]">USA, 3 Minutes Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="/assets/feed-2-b4386ff5.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart likebtn"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/assets/profile-10-7e4030a3.jpg"></span>
+                            <span><img src="/assets/profile-14-1a687d62.jpg"></span>
+                            <span><img src="/assets/profile-6-5a746552.jpg"></span>
+                            <p>Liked by</p><b> Samuel Jackson</b> and <b>2,334 others</b>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. <span
+                                    class="harsh-tag">#lifestyle</span></p>
+                        </div>
+                        <div class="comment text-[var(--color-faded)]">
+                            View all 986 comments
+                        </div>
+                    </div>
+
+                    <!-- ----FEED-3---- -->
+
+                    <div class="feed">
+
+                        <!-- -------HEAD------- -->
+
+                        <div class="head">
+                            <div class="user flex space-x-3">
+                                <div class="profile">
+                                    <img src="/assets/profile-13-93627889.jpg" alt="profile"
+                                        class="rounded-full h-10 cursor-pointer">
+                                </div>
+                                <div class="ingo">
+                                    <h3 class="text-base font-medium">Lana Rose</h3>
+                                    <small class="font-medium text-[var(--color-faded)]">USA, 3 Minutes Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="/assets/feed-3-2c4368b7.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart likebtn"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/assets/profile-10-7e4030a3.jpg"></span>
+                            <span><img src="/assets/profile-14-1a687d62.jpg"></span>
+                            <span><img src="/assets/profile-6-5a746552.jpg"></span>
+                            <p>Liked by</p><b> Samuel Jackson</b> and <b>2,334 others</b>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. <span
+                                    class="harsh-tag">#lifestyle</span></p>
+                        </div>
+                        <div class="comment text-[var(--color-faded)]">
+                            View all 986 comments
+                        </div>
+                    </div>
+
+                    <!-- ----FEED-4---- -->
+
+                    <div class="feed">
+
+                        <!-- -------HEAD------- -->
+
+                        <div class="head">
+                            <div class="user flex space-x-3">
+                                <div class="profile">
+                                    <img src="/assets/profile-14-1a687d62.jpg" alt="profile"
+                                        class="rounded-full h-10 cursor-pointer">
+                                </div>
+                                <div class="ingo">
+                                    <h3 class="text-base font-medium">Lana Rose</h3>
+                                    <small class="font-medium text-[var(--color-faded)]">USA, 3 Minutes Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="/assets/feed-4-e0fb2a73.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart likebtn"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/assets/profile-10-7e4030a3.jpg"></span>
+                            <span><img src="/assets/profile-14-1a687d62.jpg"></span>
+                            <span><img src="/assets/profile-6-5a746552.jpg"></span>
+                            <p>Liked by</p><b> Samuel Jackson</b> and <b>2,334 others</b>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. <span
+                                    class="harsh-tag">#lifestyle</span></p>
+                        </div>
+                        <div class="comment text-[var(--color-faded)]">
+                            View all 986 comments
+                        </div>
+                    </div>
+
+                    <!-- ----FEED-5---- -->
+
+                    <div class="feed">
+
+                        <!-- -------HEAD------- -->
+
+                        <div class="head">
+                            <div class="user flex space-x-3">
+                                <div class="profile">
+                                    <img src="/assets/profile-15-da5edfb0.jpg" alt="profile"
+                                        class="rounded-full h-10 cursor-pointer">
+                                </div>
+                                <div class="ingo">
+                                    <h3 class="text-base font-medium">Lana Rose</h3>
+                                    <small class="font-medium text-[var(--color-faded)]">USA, 3 Minutes Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="/assets/feed-5-4a4b9dcc.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart likebtn"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/assets/profile-10-7e4030a3.jpg"></span>
+                            <span><img src="/assets/profile-14-1a687d62.jpg"></span>
+                            <span><img src="/assets/profile-6-5a746552.jpg"></span>
+                            <p>Liked by</p><b> Samuel Jackson</b> and <b>2,334 others</b>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. <span
+                                    class="harsh-tag">#lifestyle</span></p>
+                        </div>
+                        <div class="comment text-[var(--color-faded)]">
+                            View all 986 comments
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right fixed flex flex-col justify-center mx-6 my-16 right-0">
+                <div class="messages rounded-3xl bg-[var(--color)] px-8 py-3 space-y-4">
+                    <div class="heading flex justify-between items-center">
+                        <h4 class="text-lg font-poppins font-bold">Messages</h4><i class="uil uil-edit text-xl"></i>
+                    </div>
+                    <div class="search-bar flex items-center justify-between px-3 space-x-3 rounded-3xl bg-[var(--color-primary-dark)]">
+                        <i class="uil uil-search text-xl"></i>
+                        <input type="search" placeholder="Search messages" id="message-search" class="bg-transparent py-2 px-2">
+                    </div>
+                    <div class="category flex justify-between font-semibold cursor-pointer">
+                        <h6 class="activek msg-toggle">Primary</h6>
+                        <h6 class="msg-toggle">General</h6>
+                        <h6 class="message-requests text-red-400 msg-toggle">Requests(7)</h6>
+                    </div>
+                    <div class="message relative overflow-y-auto h-[25vh] left-0 py-3 space-y-1">
+                        <div class="flex text-all items-center space-x-3">
+                            <div class="profile">
+                                <img src="/assets/profile-16-d8b86af9.jpg" alt="dd" class="h-14 rounded-full">
+                            </div>
+                            <div class="message-body">
+                                <h5 class="text-base font-bold">Catelia Jones</h5>
+                                <p class="muted text-sm text-[var(--color-faded)]">Hello there. How are you?</p>
+                            </div>
+                        </div>
+                        <div class="flex text-all items-center space-x-3">
+                            <div class="profile">
+                                <img src="/assets/profile-11-a49410cd.jpg" alt="dd" class="h-14 rounded-full">
+                            </div>
+                            <div class="message-body">
+                                <h5 class="text-base font-bold">Marry Jane</h5>
+                                <p class="muted text-sm text-[var(--color-faded)]">Yoo what's up?</p>
+                            </div>
+                        </div>
+                        <div class="flex text-all items-center space-x-3">
+                            <div class="profile">
+                                <img src="/assets/profile-17-1336519e.jpg" alt="dd" class="h-14 rounded-full">
+                            </div>
+                            <div class="message-body">
+                                <h5 class="text-base font-bold">Riry Williams</h5>
+                                <p class="muted text-sm text-[var(--color-faded)]">Thank you so much</p>
+                            </div>
+                        </div>
+                        <div class="flex text-all items-center space-x-3">
+                            <div class="profile">
+                                <img src="/assets/profile-18-17edbf3f.jpg" alt="dd" class="h-14 rounded-full">
+                            </div>
+                            <div class="message-body">
+                                <h5 class="text-base font-bold">Michel Collins</h5>
+                                <p class="muted text-sm text-[var(--color-faded)]">Dude are you coming tonight?</p>
+                            </div>
+                        </div>
+                        <div class="flex text-all items-center space-x-3">
+                            <div class="profile">
+                                <img src="/assets/profile-12-158de6b8.jpg" alt="dd" class="h-14 rounded-full">
+                            </div>
+                            <div class="message-body">
+                                <h5 class="text-base font-bold">Gerge Wattson</h5>
+                                <p class="muted text-sm text-[var(--color-faded)]">Is this you?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend-requests flex flex-col items-center rounded-3xl bg-[var(--color)] mt-5 px-8 py-3 space-y-4">
+                    <h4 class="text-lg font-bold">Requests</h4>
+                    <div class="requests overflow-y-auto overflow-x-hidden items-center flex flex-col left-0 w-[100%] h-[25vh]">
+                        <div class="info flex space-x-2">
+                            <div class="profile">
+                                <img src="/assets/profile-19-d3c51d5e.jpg" alt="ddgf" class="h-14 rounded-full">
+                            </div>
+                            <div>
+                                <h5 class="text-lg font-bold">Leica Alan</h5>
+                                <p class="muted text-sm text-[var(--color-faded)]">
+                                    9 Mutual Friends
+                                </p>
+                                <div class="action my-4 mx-[-5rem] space-x-3">
+                                    <button class="button font-semibold bg-green-600 px-5 rounded-md py-2 text-[var(--color)]">Accept</button>
+                                    <button class="button font-semibold bg-red-600 px-5 rounded-md py-2 text-[var(--color)]">Decline</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info flex space-x-2">
+                            <div class="profile">
+                                <img src="/assets/profile-19-d3c51d5e.jpg" alt="ddgf" class="h-14 rounded-full">
+                            </div>
+                            <div>
+                                <h5 class="text-lg font-bold">Leica Alan</h5>
+                                <p class="muted text-sm text-[var(--color-faded)]">
+                                    9 Mutual Friends
+                                </p>
+                                <div class="action my-4 mx-[-5rem] space-x-3">
+                                    <button class="button font-semibold bg-green-600 px-5 rounded-md py-2 text-[var(--color)]">Accept</button>
+                                    <button class="button font-semibold bg-red-600 px-5 rounded-md py-2 text-[var(--color)]">Decline</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info flex space-x-2">
+                            <div class="profile">
+                                <img src="/assets/profile-19-d3c51d5e.jpg" alt="ddgf" class="h-14 rounded-full">
+                            </div>
+                            <div>
+                                <h5 class="text-lg font-bold">Leica Alan</h5>
+                                <p class="muted text-sm text-[var(--color-faded)]">
+                                    9 Mutual Friends
+                                </p>
+                                <div class="action my-4 mx-[-5rem] space-x-3">
+                                    <button class="button font-semibold bg-green-600 px-5 rounded-md py-2 text-[var(--color)]">Accept</button>
+                                    <button class="button font-semibold bg-red-600 px-5 rounded-md py-2 text-[var(--color)]">Decline</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info flex space-x-2">
+                            <div class="profile">
+                                <img src="/assets/profile-19-d3c51d5e.jpg" alt="ddgf" class="h-14 rounded-full">
+                            </div>
+                            <div>
+                                <h5 class="text-lg font-bold">Leica Alan</h5>
+                                <p class="muted text-sm text-[var(--color-faded)]">
+                                    9 Mutual Friends
+                                </p>
+                                <div class="action my-4 mx-[-5rem] space-x-3">
+                                    <button class="button font-semibold bg-green-600 px-5 rounded-md py-2 text-[var(--color)]">Accept</button>
+                                    <button class="button font-semibold bg-red-600 px-5 rounded-md py-2 text-[var(--color)]">Decline</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info flex space-x-2">
+                            <div class="profile">
+                                <img src="/assets/profile-19-d3c51d5e.jpg" alt="ddgf" class="h-14 rounded-full">
+                            </div>
+                            <div>
+                                <h5 class="text-lg font-bold">Leica Alan</h5>
+                                <p class="muted text-sm text-[var(--color-faded)]">
+                                    9 Mutual Friends
+                                </p>
+                                <div class="action my-4 mx-[-5rem] space-x-3">
+                                    <button class="button font-semibold bg-green-600 px-5 rounded-md py-2 text-[var(--color)]">Accept</button>
+                                    <button class="button font-semibold bg-red-600 px-5 rounded-md py-2 text-[var(--color)]">Decline</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
